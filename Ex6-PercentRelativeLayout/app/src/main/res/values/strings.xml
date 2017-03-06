@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ex6-PercentRelativeLayout</string>
+    <string name="dispo_site_web">Disposition site web</string>
+    <string name="header">Header</string>
+    <string name="nav">Navigation</string>
+    <string name="content">Content</string>
+    <string name="aside">Aside</string>
+    <string name="footer">Footer</string>
+</resources>
