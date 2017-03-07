@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/dp_5"
+    tools:context="fr.dwaps.ex7_formview.MainActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <!--FORM IDENTITE-->
+        <LinearLayout
+            android:id="@+id/form_identite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <include layout="@layout/content_form_identite"/>
+        </LinearLayout>
+        <!---->
+
+        <View
+            android:id="@+id/hr1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_3"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_marginBottom="@dimen/dp_20"
+            android:layout_below="@id/form_identite"
+            android:background="@color/colorAccent"/>
+
+        <!--FORM PARTIE ADRESSE-->
+        <LinearLayout
+            android:id="@+id/form_adresse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/hr1"
+            android:orientation="vertical">
+            <include layout="@layout/content_form_adresse"/>
+        </LinearLayout>
+        <!---->
+
+        <View
+            android:id="@+id/hr2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_3"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_marginBottom="@dimen/dp_20"
+            android:layout_below="@id/form_adresse"
+            android:background="@color/colorAccent"/>
+
+            <!--FORM PARTIE OPTIONS-->
+            <LinearLayout
+                android:id="@+id/form_options"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/hr2"
+                android:layout_marginBottom="@dimen/dp_20"
+                android:orientation="vertical">
+                <include layout="@layout/content_form_options"/>
+            </LinearLayout>
+            <!---->
+
+            <!--BOUTON SOUMISSION-->
+            <Button
+                android:id="@+id/bt_send"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/form_options"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="@dimen/dp_20"
+                android:layout_centerHorizontal="true"
+                android:text="@string/envoyer"/>
+            <!---->
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

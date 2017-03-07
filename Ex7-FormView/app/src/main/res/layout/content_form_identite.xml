@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!--CHAMP CIVILITE-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_civilite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/background_dark"
+            android:paddingTop="@dimen/dp_20"
+            android:textSize="@dimen/sp_20"
+            android:text="@string/tv_civilite"/>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/dp_15"
+            android:layout_marginLeft="@dimen/dp_20">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_15"
+                android:text="@string/m"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_15"
+                android:text="@string/mme"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_15"
+                android:text="@string/mlle"/>
+        </RadioGroup>
+    </LinearLayout>
+    <!---->
+
+    <!--CHAMP NOM-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_nom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/background_dark"
+            android:paddingTop="@dimen/dp_20"
+            android:textSize="@dimen/sp_20"
+            android:text="@string/tv_nom"/>
+        <EditText
+            android:id="@+id/et_nom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:inputType="textCapCharacters"
+            android:hint="@string/et_nom"/>
+    </LinearLayout>
+    <!---->
+
+    <!--CHAMP PRENOM-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_prenom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/dp_20"
+            android:textSize="@dimen/sp_20"
+            android:textColor="@android:color/background_dark"
+            android:text="@string/tv_prenom"/>
+        <EditText
+            android:id="@+id/et_prenom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:inputType="textCapWords"
+            android:hint="@string/et_prenom"/>
+        </LinearLayout>
+    <!---->
+
+    <!--CHAMP EMAIL -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/dp_20"
+            android:textSize="@dimen/sp_20"
+            android:textColor="@android:color/background_dark"
+            android:text="@string/tv_email"/>
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:inputType="textEmailAddress"
+            android:hint="@string/et_email"/>
+    </LinearLayout>
+    <!---->
+
+    <!--CHAMP DATE NAISSANCE-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_date_naissance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/dp_20"
+            android:textSize="@dimen/sp_20"
+            android:textColor="@android:color/background_dark"
+            android:text="@string/tv_date_de_naissance"/>
+        <EditText
+            android:id="@+id/et_date_naissance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:inputType="date"
+            android:hint="@string/et_date_de_naissance"/>
+    </LinearLayout>
+    <!---->
+
+</LinearLayout>

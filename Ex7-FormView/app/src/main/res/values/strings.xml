@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Ex7-FormView</string>
+    <string name="form">Formulaire</string>
+    <string name="et_date_de_naissance">00/00/00</string>
+    <string name="et_nom">Votre nom...</string>
+    <string name="tv_nom">Nom :</string>
+    <string name="tv_date_de_naissance">Date de naissance :</string>
+    <string name="tv_prenom">Prénom :</string>
+    <string name="et_prenom">Votre prénom...</string>
+    <string name="tv_adresse">Adresse :</string>
+    <string name="et_adresse">Votre adresse...</string>
+    <string name="tv_cp">Code Postal :</string>
+    <string name="et_cp">00000</string>
+    <string name="tv_ville">Ville :</string>
+    <string name="et_ville">Ville...</string>
+    <string name="envoyer">Envoyer</string>
+    <string name="tv_email">Email :</string>
+    <string name="et_email">Votre email...</string>
+    <string name="tv_notif">Recevoir un email ?</string>
+    <string name="tv_civilite">Civilité :</string>
+    <string name="mme">Mme.</string>
+    <string name="m">M.</string>
+    <string name="mlle">Mlle</string>
+    <string name="tv_aimer_app">Aimez-vous cette application ?</string>
+</resources>
