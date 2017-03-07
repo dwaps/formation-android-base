@@ -18,6 +18,10 @@ OU BIEN,
 
   b. Télécharger l'archive zip [https://github.com/dwaps/formation-android/archive/master.zip](https://github.com/dwaps/formation-android/archive/master.zip). Il vous suffira ensuite de la décompresser ou vous voulez pour travailler.
 
+OU BIEN,
+
+  c. Installation via Bower : `bower install dwaps-formation-android`.
+
 ---
 
 [® DWAPS Formation - Michael Cornillon] (http://dwaps.fr "DWAPS")
