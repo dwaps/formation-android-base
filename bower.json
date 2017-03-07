@@ -1,0 +1,41 @@
+{
+  "name": "dwaps-formation-android",
+  "version": "0.1.0",
+  "_release": "0.1.0",
+  "_target": "^0.1.0",
+  "homepage": "http://dwaps.fr",
+  "authors": [
+    "Michael Cornillon <contact@dwaps.fr>"
+  ],
+  "_source": "https://github.com/dwaps/formation-android",
+  "description": "Formation au développement Android dirigée par DWAPS Formation.",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "keywords": [
+    "dwaps",
+    "android",
+    "Michael",
+    "Cornillon",
+    "java",
+    "formation",
+    "formation",
+    "android",
+    "formation",
+    "mobile",
+    "programmation",
+    "android",
+    "cours",
+    "de",
+    "programmation",
+    "cours",
+    "android"
+  ],
+  "devDependencies": {},
+  "main": "",
+  "license": "MIT"
+}
